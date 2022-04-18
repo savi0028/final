@@ -49,5 +49,287 @@ table {
 	border-spacing: 0;
 }
 
-/* MY CSS */
+/* START OF MY CSS */
+
+/* ------- Mobile CSS ------- */
+
+:root {
+    --blue: #1A4B82;
+    --purple:  #9798CB;
+    --yellow: #FDC100;
+    --black: #262626;
+    --white: #F2F2F3;
+    --grey: #E4E4E4;
+}
+
+/* container styles */
+
+body {
+    background-color: var(--white);
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+footer {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+.container {
+    width: auto;
+    padding: 36px;  
+}
+
+header .container {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+body .container {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+footer .container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* font style */
+
+h2 {
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 800;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+button {
+    background-color: var(--purple);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 16px;
+}
+
+/* header */
+
+header .container {
+    text-align: center;
+}
+
+header .container img {
+    width: 390px;
+    height: auto;
+}
+
+header .container ul li a {
+    display: block;
+    text-decoration: none;
+    padding-top: 34px;
+    padding-bottom: 28px;
+    color: var(--white);
+}
+
+.current a:link {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* about section */
+
+
+/* service section */
+
+.service-section .row {
+    background-color: var(--grey);
+    padding: 22px 16px 50px 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.service-section img {
+    padding-top: 14px;
+    padding-bottom: 12px;
+}
+
+.service-section h3 {
+    padding-bottom: 25px;
+}
+
+/* contact section */
+
+.contact-intro {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 40px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+form label {
+      font-size: 14px;
+      font-weight: 700;
+  }
+
+.send {
+    background-color: var(--purple);
+    border-radius: 40px;
+    border: none;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .contact-form {
+      margin-bottom: 60px;
+  }
+
+
+
+
+
+/* ------- Tablet CSS ------- */
+
+@media screen and (min-width: 768px) {
+
+    /* cpntainer style */
+    
+    .container {
+        width: 608px;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto;
+    }
+
+    header .container {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    
+    body .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    footer .container {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    /* font style */
+
+    h2 {
+        font-size: 30px;
+        line-height: 1.5em;
+        font-weight: 800;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 1.5em;
+        font-weight: 800;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5em;
+        font-weight: 300;
+    }
+
+    footer p {
+        font-size: 20px;
+        line-height: 1.5em;
+        font-weight: 500;
+    }
+
+  }
+
+/* ------- Desktop CSS ------- */
+
+@media screen and (min-width: 1280px) {
+    
+    .container {
+        width: 1000px;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto;
+    }
+
+    header .container {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    
+    body .container {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    
+    footer .container {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+     /* font style */
+
+     h2 {
+        font-size: 30px;
+        line-height: 1.5em;
+        font-weight: 800;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 1.5em;
+        font-weight: 800;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 1.5em;
+        font-weight: 300;
+    }
+
+    footer p {
+        font-size: 20px;
+        line-height: 1.5em;
+        font-weight: 500;
+    }
+
+
+  }
+
+
+
 

@@ -4,55 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;700;900&display=swap" rel="stylesheet">
+    <link href="styles.css/style.css" rel="stylesheet">
     <title>Raven Saville Portfolio</title>
 </head>
+
 <body>
     <header>
-        <!-- Logo -->
-        <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+        <div class="container">
+            <!-- Logo -->
+            <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
 
-        <!-- Navigation -->
-        <nav>
-            <ul>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
         <!-- about section -->
-        <section class="about-section">
-            <!-- image-->
-            <div class="headshot">
-                <img src="images/headshot.jpg" alt="photo of Raven">
-            </div>
-
-            <!-- content -->
-            <div class="about">
-                <h2>About Me</h2>
-
-                <p>Hi, there! My name is Raven Saville, I’m currently an Interactive Media Design Student at Algonquin College. Behind all of my work is a life-long passion for storytelling through visual mediums. 
-                <br>
-                Although I consider myself a jack of all trades with interest in all creative fields, I have a special interest in photography and graphic design. 
-                <br>
-                To view my work, check out my portfolio!</p>
-
-                <button>Check out my work!</button>
-            </div>
-        </section>
+        <div class="container">
+            <section class="about-section">
+                <!-- content -->
+                <div class="about">
+                    <h2>About Me</h2>
+                    <br>
+                    <p>Hi, there! My name is Raven Saville, I’m currently an Interactive Media Design Student at Algonquin College. Behind all of my work is a life-long passion for storytelling through visual mediums. </p>
+                    <br>
+                    <p>Although I consider myself a jack of all trades with interest in all creative fields, I have a special interest in photography and graphic design. </p>
+                    <br>
+                    <p>To view my work, check out my portfolio!</p>
+                    <br>
+                    <button>Check out my work!</button>
+                </div>
+                <!-- image-->
+                <div class="headshot">
+                    <img src="images/headshot.jpg" alt="photo of Raven">
+                </div>
+            </section>
+        </div> 
     </main>
 
     <footer>
-        <p> &copy; Raven Saville</p>
+        <div class="container">
+            <p> &copy; Raven Saville</p>
 
-        <section>
-            <a href="https://www.instagram.com/?hl=en"><img src="images/instagram.svg" alt="instagram logo"></a>
-            <a href="https://www.linkedin.com/in/raven-saville-757033225/"><img src="images/linkedin.svg" alt="linkedin logo"></a>
-        </section>
+            <section>
+                <a href="https://www.instagram.com/?hl=en"><img src="images/instagram.svg" alt="instagram logo"></a>
+                <a href="https://www.linkedin.com/in/raven-saville-757033225/"><img src="images/linkedin.svg" alt="linkedin logo"></a>
+            </section>
+        </div>
     </footer>
-    
 </body>
 </html>
