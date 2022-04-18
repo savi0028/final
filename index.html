@@ -44,9 +44,21 @@
                     <br>
                     <button>Check out my work!</button>
                 </div>
+                
                 <!-- image-->
-                <div class="headshot">
-                    <img src="images/headshot.jpg" alt="photo of Raven">
+                <div class="profile">
+                    <picture>
+                        <source media="(min-width:1280px)" 
+                                srcset="images/desktop/profile-desktop.jpg, 
+                                images/desktop/profile-desktop@2x.jpg 2x">
+                        <source media="(min-width:768px)" 
+                                srcset="images/tablet/profile-tablet.jpg, 
+                                images/tablet/profile-tablet.jpg@2x 2x">
+
+                        <img 
+                            srcset="images/mobile/profile-mobile.jpg, images/mobile/profile-mobile@2x.jpg 2x"
+                            src="images/mobile/profile-mobile.jpg" alt="profile" style="width:100%;">
+                    </picture>
                 </div>
             </section>
         </div> 

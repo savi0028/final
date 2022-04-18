@@ -84,6 +84,7 @@ footer {
     padding: 36px;  
 }
 
+
 header .container {
     padding-top: 40px;
     padding-bottom: 30px;
@@ -98,6 +99,8 @@ footer .container {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+
 
 /* font style */
 
@@ -158,6 +161,10 @@ header .container ul li a {
 
 /* about section */
 
+.about {
+    margin-bottom: 30px;
+}
+
 
 /* service section */
 
@@ -175,6 +182,22 @@ header .container ul li a {
 
 .service-section h3 {
     padding-bottom: 25px;
+}
+
+/* portfolio section */
+
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    gap: 8px;
+    padding: 8px;
+    justify-content: center;
+}
+
+.portfolio-grid > img {
+    width: fit-content;
 }
 
 /* contact section */
@@ -224,7 +247,7 @@ form label {
 
 @media screen and (min-width: 768px) {
 
-    /* cpntainer style */
+    /* container style */
     
     .container {
         width: 608px;
@@ -273,12 +296,13 @@ form label {
         font-weight: 500;
     }
 
-  }
+    /* portfolio section */
+ }
+
 
 /* ------- Desktop CSS ------- */
 
 @media screen and (min-width: 1280px) {
-    
     .container {
         width: 1000px;
         padding-left: 0;
@@ -326,10 +350,4 @@ form label {
         line-height: 1.5em;
         font-weight: 500;
     }
-
-
-  }
-
-
-
-
+}
